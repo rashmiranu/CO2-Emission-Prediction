@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content ="with=device-width, initial-scale= 1.0">
+    <title>Health Care App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style_sheets/style.css')}}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        a:link, a:visited {
+            background: linear-gradient(135deg, #134E5E, #71B280);
+            color: white;
+            padding: 14px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 5px;
+        }
+        a:hover, a:active{
+            background: linear-gradient(-135deg, #134E5E, #71B280);
+        }
+    </style>
+
+</head>
+
+<body>
+
+<section class="co2Emission-header">–
+    <div class="container">
+        <div class="title">Provide car details below :</div>
+        <form action="/result" method="POST">
+            <div class="car-details">
+                <div class="input-box">
+                    <label for="Engine Size(L)">Engine Size</label>
+                    <input type="text" id="Engine Size(L)" name="Engine Size(L)" placeholder="Litre" required>
+                </div>
+                <div class="input-box">
+                    <label for="Cylinders">Cylinders</label>
+                    <input type="text" id="Cylinders" name="Cylinders" placeholder="Number of cylinders" required>
+                </div>
+                <div class="input-box">
+                      <label for="Fuel Type">Choose a Fuel Type:</label>
+                        <select name="Fuel Type" id="Fuel Type">
+                            <option value="3">Regular gasoline</option>
+                            <option value="4">Premium gasoline</option>
+                            <option value="0">Diesel</option>
+                            <option value="1">Ethanol (E85)</option>
+                            <option value="2">Natural gas</option>
+                        </select>
+                </div>
+                <div class="input-box">
+                    <label for="Fuel Consumption Comb (L/100 km)">Fuel Consumption</label>
+                    <input type="text" id="Fuel Consumption Comb (L/100 km)" name="Fuel Consumption Comb (L/100 km)" placeholder="(Litre/100 km)" required>
+                </div>
+
+            </div>
+            <div class="button">
+                <input type="submit" value="calculate CO2 emission">
+            </div>
+            <a href="/" target="_blank">Back to Home</a>
+        </form>
+    </div>
+</section>
+
+
+    <div class="footer" style="">Made with<span style="font-size:120%;color:red;"> &hearts; </span>by Rashmi</div>
+
+</body>
+
+</html>
