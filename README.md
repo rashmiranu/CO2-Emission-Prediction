@@ -1,7 +1,7 @@
 # CO2-Emission-Prediction
 This is an end to end Regression type machine learning project which will predict the amount of Carbon Dioxide emitted by your car. 
 
-<img width="1279" alt="Screenshot 2021-04-25 at 3 31 22 PM" src="https://user-images.githubusercontent.com/57981133/115989869-18a94000-a5de-11eb-80d7-eef0dc37abe6.png">
+![Screenshot 2021-04-25 at 3 31 22 PM](https://user-images.githubusercontent.com/57981133/115990547-73906680-a5e1-11eb-9746-5697640dc31a.jpg)
 
 <hr>
 <h3> This whole project is deployed on Heroku Cloud. <h3>
