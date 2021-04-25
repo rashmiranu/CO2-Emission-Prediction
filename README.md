@@ -19,7 +19,6 @@ This is an end to end Regression type machine learning project which will predic
 <li><p><b>Pandas</b></p></li>
 <li><p><b>Numpy</b></p></li>
 <li><p><b>Pickle</b></p></li>  
-<li><p><b>HTML</b></p></li>
-<li><p><b>CSS</b></p></li>
+<li><p><b>HTML & CSS</b></p></li>
 </ul>
  
