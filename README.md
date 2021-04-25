@@ -1,5 +1,5 @@
 # CO2-Emission-Prediction
-End to end Regression type machine learning project which will predict the amount of Carbon Dioxide emitted by your car. 
+This is an end to end Regression type machine learning project which will predict the amount of Carbon Dioxide emitted by your car. 
 
 <img src="https://cdn.activestate.com/wp-content/uploads/2018/10/machine-learning-healthcare-blog-hero-1200x799.jpg" width="1100" height="300" />
 
