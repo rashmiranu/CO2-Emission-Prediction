@@ -12,7 +12,8 @@ This is an end to end Regression type machine learning project which will predic
  
  <hr>
  <h3> Tools Used <h3>
- <ul>
+ <ul><img width="1279" alt="Screenshot 2021-04-25 at 3 31 22 PM" src="https://user-images.githubusercontent.com/57981133/115989713-50fc4e80-a5dd-11eb-80c8-6315930c9bf3.png">
+
 <li><p><b>Python ( 3.8 version)</b></p></li>
 <li><p><b>Flask</b></p></li>
 <li><p><b>Sci-kit Learn</b></p></li>
