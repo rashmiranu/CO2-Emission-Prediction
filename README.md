@@ -1,7 +1,7 @@
 # CO2-Emission-Prediction
 This is an end to end Regression type machine learning project which will predict the amount of Carbon Dioxide emitted by your car. 
 
-<img src="https://cdn.activestate.com/wp-content/uploads/2018/10/machine-learning-healthcare-blog-hero-1200x799.jpg" width="1100" height="300" />
+<img width="1279" alt="Screenshot 2021-04-25 at 3 31 22 PM" src="https://user-images.githubusercontent.com/57981133/115989869-18a94000-a5de-11eb-80d7-eef0dc37abe6.png">
 
 <hr>
 <h3> This whole project is deployed on Heroku Cloud. <h3>
